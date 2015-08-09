@@ -1,0 +1,37 @@
+#header{
+	background: rgba(0,0,0,0.25);
+	border: 1px solid rgba(0,0,0,0.3);
+	margin: 0px auto;
+	width: 80%;
+	height: 30px;
+	padding: 5px;
+	min-width: 700px;
+	box-shadow: inset 0px 5px rgba(255,255,255,0.2),
+				inset 0px 35px rgba(0,0,0,0.1),
+				inset 0px 40px rgba(0,0,0,0.2);
+}
+#header ul{
+	display: table;
+	width: 100%;
+}
+#header li{
+	display: table-cell;
+	height: 30px;
+	list-style: none;
+	font: 16px Tahoma;
+	text-shadow: 1px 1px 1px black;
+	text-align: center;
+	vertical-align: middle;
+}
+#header li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	background: rgba(0,0,0,0.3);
+	height: 30px;
+	line-height: 30px;
+}
+#header li a:hover{
+	background-color: rgba(255,255,255,0.3);
+	text-shadow: 5px 5px 5px black;
+}

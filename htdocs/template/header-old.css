@@ -1,0 +1,48 @@
+#header{
+	background-color: #F0F0F0;
+	overflow: hidden;
+}
+#header ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#header ul > li{
+	margin: auto 0px;
+	list-style-type: none;
+	font-family: Tahoma;
+	font-size: 1em;
+	white-space: nowrap;
+}
+#header ul > li > h1{
+	padding: 0em 1em;
+}
+#header ul > li > .nav{
+	padding: 0.5em 1em;
+	transition: background-color 0.2s;
+}
+#header ul > li > .nav:hover{
+	color: #4078C0;
+	background-color: #BFBFBF;
+}
+#header ul > .nav-right{
+	margin-left: auto;
+	margin-right: 1em;
+}
+#header ul > li > .sign-in{
+	padding: 0em;
+}
+#header ul > li > .sign-in > img{
+	display: block;
+}
+#header ul > li > .profile-info{
+	border-right: 1px solid #000000;
+	padding: 0em 1em;
+}
+#header ul > li > .profile-info:last-child{
+	border-right: none;
+}
+#header a{
+	color: black;
+	text-decoration: none;
+}

@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^forums/topic/([0-9]*)/?$ topic-page.php?id=$1 [NC,L]

@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="/template/footer.css" type="text/css"/>

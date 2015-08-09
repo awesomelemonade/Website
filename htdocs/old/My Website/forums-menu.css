@@ -1,0 +1,21 @@
+#forums h1{
+	text-align: center;
+	font-family: Tahoma;
+}
+#topics-table{
+	border: 1px solid rgba(0,0,0,0.4);
+	padding: 5px;
+	width: 100%;
+	border-spacing: 0px;
+}
+#topics-table tr:nth-child(even){
+	background-color: #EEEEEE;
+}
+#topics-table tr:nth-child(odd){
+	background-color: #FFFFFF;
+}
+#topics-table a{
+	color: black;
+	font: 16px Tahoma;
+	padding: 5px;
+}
